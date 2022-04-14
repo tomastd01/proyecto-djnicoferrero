@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d3d3d3;
+  padding: 15px;
+}
+
+.home {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-image: url(../image/home/Home.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.homeText {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.homeText h1 {
+  color: #d3d3d3;
+  font-size: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
