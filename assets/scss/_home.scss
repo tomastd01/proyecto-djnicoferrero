@@ -15,6 +15,7 @@ body {
 
 .home {
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     background-image: url(../image/home/Home.png);
@@ -24,9 +25,6 @@ body {
 
 .homeText {
     display: flex;
-    align-items: center;
-    margin-left: 50px;
-
     & h1 {
         color: #d3d3d3;
         font-size: 100px;
@@ -34,3 +32,12 @@ body {
     }
 }
 
+.homeText2 {
+    color: white;
+}
+
+.homeRedes {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
