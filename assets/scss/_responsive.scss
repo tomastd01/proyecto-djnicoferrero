@@ -1,0 +1,51 @@
+// Vista Phone
+
+@media (max-width:480px) {
+
+    .homeText {
+        height: 40%;
+        & h1 {
+            font-size: 70px;
+            
+        }
+        
+    }
+
+    .homeText2 {
+        font-size: 15px;
+        height: 10%;
+        margin-top: 10px;
+    }
+
+    .homeBoton {
+        height: 10%;
+    }
+    
+}
+
+// Vista Tablet
+
+@media (min-width: 481px) and (max-width:1023px) {
+    .homeText {
+        & h1 {
+            font-size: 65px;
+        }
+    }
+
+    .homeText2 {
+        font-size: 18px;
+    }
+
+    .homeBoton {
+        height: 10%;
+    }
+
+}
+
+// Vista Desktop
+
+@media (min-width:1024px) {
+
+
+
+}
