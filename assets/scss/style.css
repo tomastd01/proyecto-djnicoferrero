@@ -122,4 +122,12 @@ body {
   }
 }
 
+.navbar {
+  background-color: #FFF !important;
+}
+
+.social li {
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */
