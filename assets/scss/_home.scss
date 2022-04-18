@@ -1,0 +1,95 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #12c2e9; 
+    background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #d226e2); 
+    background: linear-gradient(to right, #12c2e9, #c471ed, #d226e2); 
+    padding: 15px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/home/Home.png);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.homeText {
+    display: flex;
+    height: 40%;
+    align-items: end;
+    & h1 {
+        color: white;
+        font-size: 100px;
+    }
+}
+
+.homeText2 {
+    color: white;
+    height: 10%;
+    font-size: 30px;
+}
+
+.homeBoton {
+    color: white;
+    & .btn-outline-secondary {
+        border-color: white;
+        color: white;
+        &:hover {
+            background-image: $colorPrincipal;
+            border: 1px solid white;
+        }
+    }
+}
+
+.homeRedes {
+    display: flex;
+    height: 30%;
+    align-items: end;
+    flex-direction: row;
+}
+
+.botonInstagram {
+    color: white;
+    &:hover {
+        color: $colorSecundario;
+        cursor: pointer;
+    }
+}
+
+.botonFacebook {
+    color: white;
+    &:hover {
+        color: $colorSecundario;
+        cursor: pointer;
+    }
+}
+
+.botonSpotify {
+    color: white;
+    &:hover {
+        color: $colorSecundario;
+        cursor: pointer;
+    }
+}
+
+.botonCloud {
+    color: white;
+    &:hover {
+        color: $colorSecundario;
+        cursor: pointer;
+    }
+}
+
+
