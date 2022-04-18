@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-body {
+.indexBody {
     height: 100vh;
     width: 100vw;
     background: #12c2e9; 
     background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #d226e2); 
     background: linear-gradient(to right, #12c2e9, #c471ed, #d226e2); 
-    padding: 15px;
+    padding: 10px;
 }
 
 .home {
@@ -46,9 +46,21 @@ body {
     & .btn-outline-secondary {
         border-color: white;
         color: white;
+        & a {
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
         &:hover {
             background-image: $colorPrincipal;
             border: 1px solid white;
+        }
+
+        &:active {
+            border: none !important;
         }
     }
 }
@@ -92,4 +104,11 @@ body {
     }
 }
 
+footer {
+    background-color: #000;
+    border: none !important;
+}
 
+.footerWrapper {
+    background-color: #000;
+}

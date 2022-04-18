@@ -4,18 +4,58 @@
     box-sizing: border-box;
 }
 
-body {
+.bioBody {
     font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
-    background-color: #FFF !important;
-}
+    background-color: #000 !important;
+    text-transform: uppercase;
+    font-size: .8rem;
 
-.social {
-
-    & li {
-        list-style: none;
+    &-brand {
+        font-size: 1.4rem;
+        color: #FFF !important ;
     }
 }
 
+.newMusic {
+    background-image: $colorPrincipal;
+    text-align: center;
+
+    &Link {
+        color: #FFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .7rem;
+        color: #FFF;
+
+        &:hover {
+            color: #ffffffd7;
+        }
+    }
+}
+
+.centerSpan {
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: $colorSecundario !important;
+}
+
+
+.social {
+
+    &List {
+        list-style: none;
+        color: #FFF;
+
+        & i {
+            color: #FFF;
+            font-size: 1rem;
+            padding: 3px;
+            margin: 0 5px !important;
+        }
+    }
+}

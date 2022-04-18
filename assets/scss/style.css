@@ -1,17 +1,192 @@
-/* Error: expected "{".
- *   ,
- * 3 | @import "variables.scss";
- *   |                         ^
- *   '
- *   style.scss 3:25  root stylesheet */
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 3 \2502  @import "variables.scss";\d\a   \2502                          ^\a   \2575 \a   style.scss 3:25  root stylesheet';
+.indexBody {
+  height: 100vh;
+  width: 100vw;
+  background: #12c2e9;
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #d226e2);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #d226e2);
+  padding: 10px;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url(../image/home/Home.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.homeText {
+  display: flex;
+  height: 40%;
+  align-items: end;
+}
+.homeText h1 {
+  color: white;
+  font-size: 100px;
+}
+
+.homeText2 {
+  color: white;
+  height: 10%;
+  font-size: 30px;
+}
+
+.homeBoton {
+  color: white;
+}
+.homeBoton .btn-outline-secondary {
+  border-color: white;
+  color: white;
+}
+.homeBoton .btn-outline-secondary a {
+  text-decoration: none;
+  color: white;
+}
+.homeBoton .btn-outline-secondary a:hover {
+  color: white;
+}
+.homeBoton .btn-outline-secondary:hover {
+  background-image: linear-gradient(to right, #12c2e9, #d226e2);
+  border: 1px solid white;
+}
+.homeBoton .btn-outline-secondary:active {
+  border: none !important;
+}
+
+.homeRedes {
+  display: flex;
+  height: 30%;
+  align-items: end;
+  flex-direction: row;
+}
+
+.botonInstagram {
+  color: white;
+}
+.botonInstagram:hover {
+  color: #12c2e9;
+  cursor: pointer;
+}
+
+.botonFacebook {
+  color: white;
+}
+.botonFacebook:hover {
+  color: #12c2e9;
+  cursor: pointer;
+}
+
+.botonSpotify {
+  color: white;
+}
+.botonSpotify:hover {
+  color: #12c2e9;
+  cursor: pointer;
+}
+
+.botonCloud {
+  color: white;
+}
+.botonCloud:hover {
+  color: #12c2e9;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #000;
+  border: none !important;
+}
+
+.footerWrapper {
+  background-color: #000;
+}
+
+@media (max-width: 480px) {
+  .homeText {
+    height: 40%;
+  }
+  .homeText h1 {
+    font-size: 70px;
+  }
+
+  .homeText2 {
+    font-size: 15px;
+    height: 10%;
+    margin-top: 10px;
+  }
+
+  .homeBoton {
+    height: 10%;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  .homeText h1 {
+    font-size: 65px;
+  }
+
+  .homeText2 {
+    font-size: 18px;
+  }
+
+  .homeBoton {
+    height: 10%;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bioBody {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #000 !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.navbar-brand {
+  font-size: 1.4rem;
+  color: #FFF !important;
+}
+
+.newMusic {
+  background-image: linear-gradient(to right, #12c2e9, #d226e2);
+  text-align: center;
+}
+.newMusicLink {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #FFF;
+}
+.newMusicLink:hover {
+  color: #ffffffd7;
+}
+
+.centerSpan {
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  color: #12c2e9 !important;
+}
+
+.socialList {
+  list-style: none;
+  color: #FFF;
+}
+.socialList i {
+  color: #FFF;
+  font-size: 1rem;
+  padding: 3px;
+  margin: 0 5px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
