@@ -111,10 +111,15 @@ footer {
   .card {
     margin-top: 35px;
     border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
   }
 
   .card-body {
     text-align: center;
+  }
+
+  .progress {
+    display: none;
   }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -133,6 +138,16 @@ footer {
   .card {
     margin-top: 25px;
   }
+
+  .musicFlex {
+    flex-flow: column wrap !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .progress {
+    display: none;
+  }
 }
 @media (min-width: 1024px) {
   .card-body {
@@ -149,6 +164,10 @@ footer {
   }
   .botonListen:hover {
     transform: scale(1.08);
+  }
+
+  .progress {
+    margin: 25px;
   }
 }
 * {
@@ -246,6 +265,15 @@ footer {
 }
 .botonListen a:hover {
   color: white;
+}
+
+.card-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+}
+
+.card-text {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

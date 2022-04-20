@@ -23,10 +23,15 @@
     .card {
         margin-top: 35px;
         border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0px;
     }
 
     .card-body {
         text-align: center;
+    }
+
+    .progress {
+        display: none;
     }
 
 }
@@ -51,6 +56,16 @@
     .card {
         margin-top: 25px;
     }
+
+    .musicFlex {
+        flex-flow: column wrap !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .progress {
+        display: none;
+    }
 }
 
 // Vista Desktop
@@ -73,4 +88,7 @@
         }
     }
 
+    .progress {
+        margin: 25px;
+    }
 }
