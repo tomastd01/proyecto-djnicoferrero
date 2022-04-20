@@ -48,3 +48,17 @@
 
 
 }
+
+
+// X-Small
+@media (max-width: 576px) {
+
+    .imgWrapper {
+        height: 300px;
+        background-position: top;
+    }
+
+    .spaceBlank {
+        display: none;
+    }
+}
