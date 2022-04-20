@@ -9,13 +9,13 @@
 }
 
 .navbar {
-    background-color: #000 !important;
+    background-color: #000;
     text-transform: uppercase;
     font-size: .8rem;
 
     &-brand {
         font-size: 1.5rem;
-        color: #FFF !important;
+        color: #FFF;
 
         &:hover {
             background: $colorPrincipal;
@@ -52,7 +52,7 @@
 }
 
 .nav-link:hover {
-    color: white !important;
+    color: white;
 }
 
 
@@ -72,7 +72,7 @@
             color: #FFF;
             font-size: 1.2rem;
             padding: 3px;
-            margin: 0 5px !important;
+            margin: 0 5px;
 
         }
         
