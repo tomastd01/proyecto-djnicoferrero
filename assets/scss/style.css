@@ -54,7 +54,7 @@
   color: white;
 }
 .homeBoton .btn-outline-secondary:hover {
-  background-image: linear-gradient(to right, #12c2e9, #d226e2);
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
   border: 1px solid white;
 }
 .homeBoton .btn-outline-secondary:active {
@@ -68,36 +68,17 @@
   flex-direction: row;
 }
 
-.botonInstagram {
+.botonInstagram, .botonFacebook, .botonSpotify, .botonCloud {
   color: white;
+  transition: all 300ms linear;
 }
-.botonInstagram:hover {
-  color: #12c2e9;
+.botonInstagram:hover, .botonFacebook:hover, .botonSpotify:hover, .botonCloud:hover {
   cursor: pointer;
-}
-
-.botonFacebook {
-  color: white;
-}
-.botonFacebook:hover {
-  color: #12c2e9;
-  cursor: pointer;
-}
-
-.botonSpotify {
-  color: white;
-}
-.botonSpotify:hover {
-  color: #12c2e9;
-  cursor: pointer;
-}
-
-.botonCloud {
-  color: white;
-}
-.botonCloud:hover {
-  color: #12c2e9;
-  cursor: pointer;
+  transform: scale(1.3);
+  background: linear-gradient(to right, #12c2e9, #e832f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer {
@@ -156,12 +137,18 @@ footer {
   font-size: 0.8rem;
 }
 .navbar-brand {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #FFF !important;
+}
+.navbar-brand:hover {
+  background: linear-gradient(to right, #12c2e9, #e832f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .newMusic {
-  background-image: linear-gradient(to right, #12c2e9, #d226e2);
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
   text-align: center;
 }
 .newMusicLink {
@@ -179,17 +166,25 @@ footer {
   font-weight: 300;
 }
 
+.nav-link {
+  transition: color 300ms linear;
+}
+
 .nav-link:hover {
-  color: #12c2e9 !important;
+  color: white !important;
 }
 
 .socialList {
   list-style: none;
   color: #FFF;
+  transition: all 300ms;
+}
+.socialList:hover {
+  transform: scale(1.3);
 }
 .socialList i {
   color: #FFF;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 3px;
   margin: 0 5px !important;
 }
