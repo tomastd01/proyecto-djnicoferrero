@@ -167,6 +167,10 @@ footer {
   font-size: 14px;
 }
 
+.biography, .bioRow {
+  width: 100%;
+}
+
 .imgWrapper {
   width: 100%;
   height: 100%;
