@@ -167,6 +167,39 @@ footer {
   font-size: 14px;
 }
 
+.musicFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.botonListen {
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
+  color: white;
+  padding: 5px;
+  border: none;
+}
+.botonListen a {
+  text-decoration: none;
+  color: white;
+}
+.botonListen a:hover {
+  color: white;
+}
+
+.card-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+}
+
+.card-text {
+  font-weight: 700;
+}
+
+.biography, .bioRow {
+  width: 100%;
+}
+
 .imgWrapper {
   width: 100%;
   height: 100%;
@@ -265,16 +298,17 @@ footer {
     margin: 25px;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 1024px) and (max-width: 576px) {
   .imgWrapper {
     height: 300px;
     background-position: top;
-    
   }
+
   .spaceBlank {
     display: none;
   }
 }
+<<<<<<< HEAD
 .bioBody {
   font-family: "Open Sans", sans-serif;
 }
@@ -374,5 +408,7 @@ footer {
 .card-text {
   font-weight: 700;
 }
+=======
+>>>>>>> 914bff0e79cb634cf3df8369941c1025d142e144
 
 /*# sourceMappingURL=style.css.map */
