@@ -107,6 +107,18 @@
     }
 
     .home {
-        background-position: 75% 25%;
+        background-position: 72% 28%;
+        
+    }
+
+    .background {
+        display: flex;
+        justify-content: center;
+        & .principalContent {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
     }
 }
