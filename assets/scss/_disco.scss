@@ -1,0 +1,34 @@
+
+
+.discography {
+    font-family: $letraHome;
+}
+
+.negrita {
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: $letraHome;
+    
+    & span {
+        font-family: $letraHome;
+    }
+}
+
+.albums {
+    line-height: .6rem;
+}
+
+.textGradient {
+        display: inline-block;
+        background: $colorPrincipal;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: .1rem;
+        font-size: 1.75rem;
+}
