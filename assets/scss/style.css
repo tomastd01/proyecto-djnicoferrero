@@ -233,6 +233,7 @@ footer {
 .card-title {
   font-family: "Nunito", sans-serif;
   font-weight: 200;
+  letter-spacing: 0.1rem;
 }
 
 .card-text {
@@ -354,6 +355,37 @@ footer {
   .home {
     background-position: 75% 25%;
   }
+}
+.discography {
+  font-family: "Raleway", sans-serif;
+}
+
+.negrita {
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+.name span {
+  font-family: "Raleway", sans-serif;
+}
+
+.albums {
+  line-height: 0.6rem;
+}
+
+.textGradient {
+  display: inline-block;
+  background: linear-gradient(to right, #12c2e9, #e832f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.1rem;
+  font-size: 1.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
