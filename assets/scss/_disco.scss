@@ -1,5 +1,4 @@
 
-
 .discography {
     font-family: $letraHome;
 }
@@ -8,6 +7,7 @@
     font-weight: 500;
     padding-left: 10px;
 }
+
 
 .name {
     font-size: 15px;
@@ -19,8 +19,8 @@
     }
 }
 
-.albums {
-    line-height: .6rem;
+.albums, .singles, .remixes {
+    line-height: .7rem;
 }
 
 .textGradient {
