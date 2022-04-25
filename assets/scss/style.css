@@ -374,8 +374,8 @@ footer {
   font-family: "Raleway", sans-serif;
 }
 
-.albums {
-  line-height: 0.6rem;
+.albums, .singles, .remixes {
+  line-height: 0.7rem;
 }
 
 .textGradient {
