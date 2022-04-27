@@ -90,7 +90,11 @@
 
     .progress {
         margin: 25px;
-    }    
+    }
+    
+    .bioLane {
+        display: none;
+    }
 }
 
 
@@ -120,5 +124,21 @@
             text-align: center;
         }
 
+    }
+    
+    .bioLine {
+        display: block;
+    }
+
+    .name {
+        font-size: 12px;
+    }
+
+    .pContainer {
+        width: 290px;
+    }
+
+    .textGradient {
+        font-size: 1.5rem;
     }
 }
