@@ -1,9 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .bioBody {
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,8 +10,11 @@
     &-brand {
         font-size: 1.5rem;
         color: #FFF;
+        font-family: "Raleway", sans-serif;
+        transition: all 400ms;
 
         &:hover {
+            transform: scale(1.03);
             background: $colorPrincipal;
             background-clip: text;
             -webkit-background-clip: text;
@@ -25,15 +22,6 @@
         }
     }
 }
-
-.navbar-brand {
-    transition: all 600ms;
-
-        &:hover {
-            transform: scale(1.03);
-        }
-}
-
 
 .newMusic {
     background-image: $colorPrincipal;
@@ -45,6 +33,7 @@
         text-transform: uppercase;
         font-size: .7rem;
         color: #FFF;
+        transition: all 200ms ease-out;
 
         &:hover {
             color: #ffffffd7;
@@ -54,6 +43,9 @@
 
 .centerSpan {
     font-weight: 300;
+    font-size: 13px;
+    text-transform: lowercase;
+    font-style: italic;
 }
 
 .nav-link {
@@ -63,7 +55,6 @@
 .nav-link:hover {
     color: white;
     font-weight: 400;
-    transform: scale(1.001);
     border-bottom: 0.8px solid #FFF;
 }
 
@@ -102,4 +93,9 @@
 
 .text-muted1 {
     color: #6c757d;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #FFF;
 }
