@@ -16,6 +16,38 @@
 }
 
 .imagenContact {
-    padding: 15px;
+   padding: 15px;
 }
 
+.contacTittle {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: $letraCars;
+    
+}
+
+.contactContect {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.botonContact {
+    background-image: $colorPrincipal;
+    color: white;
+    padding: 5px;
+    border: none;
+        & a {
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: white;
+                
+            }
+        }
+}
+
+.contactInfo {
+    
+}

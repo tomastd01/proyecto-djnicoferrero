@@ -350,6 +350,33 @@ footer {
   padding: 15px;
 }
 
+.contacTittle {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.contactContect {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.botonContact {
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
+  color: white;
+  padding: 5px;
+  border: none;
+}
+.botonContact a {
+  text-decoration: none;
+  color: white;
+}
+.botonContact a:hover {
+  color: white;
+}
+
 @media (max-width: 480px) {
   .homeText {
     height: 40%;
