@@ -170,7 +170,7 @@ footer {
   transition: all 200ms ease-out;
 }
 .newMusicLink:hover {
-  color: #ffffffd7;
+  color: rgba(255, 255, 255, 0.8431372549);
 }
 
 .centerSpan {
