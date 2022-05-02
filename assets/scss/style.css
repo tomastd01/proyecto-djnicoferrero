@@ -377,6 +377,13 @@ footer {
   color: white;
 }
 
+.contactBody {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @media (max-width: 480px) {
   .homeText {
     height: 40%;
