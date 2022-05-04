@@ -1,8 +1,7 @@
 
 .contactFlex {
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 
@@ -11,6 +10,8 @@
 }
 
 .contactData {
+    display: flex;
+    align-items: center;
     padding: 15px;
     
 }
@@ -19,15 +20,23 @@
    padding: 15px;
 }
 
-.contacTittle {
+.imgContact {
     text-align: center;
-    font-size: 4rem;
-    font-weight: 400;
-    font-family: $letraCars;
-    
+    width: 80%;
 }
 
-.contactContect {
+.contacTittle {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: $letraCars;   
+}
+
+.conTitle1 {
+    font-size: 3.2rem;
+}
+
+.worldwide {
     text-align: center;
     font-size: 3rem;
     font-weight: 300;
@@ -38,12 +47,15 @@
     color: white;
     padding: 5px;
     border: none;
+    transition: all 300ms ease;
+        &:hover {
+            transform: scale(1.05);
+        } 
         & a {
             text-decoration: none;
             color: white;
             &:hover {
                 color: white;
-                
             }
         }
 }

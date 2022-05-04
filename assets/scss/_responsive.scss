@@ -95,6 +95,7 @@
     .bioLane {
         display: none;
     }
+
 }
 
 
@@ -141,9 +142,53 @@
     .textGradient {
         font-size: 1.5rem;
     }
+
+    .imgContact {
+        width: 100%;
+    }
+
+    .contacTittle {
+        font-size: 3rem;  
+    }
+    
+    .conTitle1 {
+        font-size: 2.7rem;
+    }
+
+    .worldwide {
+        font-size: 2.6rem;
+    }
+
+    .botonContact {
+        font-size: 0.8rem;
+    }
 }
 
-// XX-Large
+// < Large
+
+@media (max-width: 992px) {
+
+    .contactFlex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .imgContact {
+        text-align: center;
+        width: 60%;
+    }
+
+    .imagenContact {
+        text-align: center;
+    }
+
+}
+
+
+
+// > XX-Large
 
 @media (min-width: 1400px) {
 
@@ -171,3 +216,26 @@
     }
 }
 
+// > XX-Large +
+@media (min-width: 1920px) {
+
+    .imgContact {
+        width: 100%;
+    }
+
+    .contacTittle {
+        font-size: 4.5rem;  
+    }
+    
+    .conTitle1 {
+        font-size: 4.2rem;
+    }
+
+    .worldwide {
+        font-size: 3.9rem;
+    }
+
+    .botonContact {
+        font-size: 1.4rem;
+    }
+}
