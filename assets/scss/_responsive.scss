@@ -142,3 +142,27 @@
         font-size: 1.5rem;
     }
 }
+
+// XX-Large
+
+@media (min-width: 1400px) {
+
+    .homeText h1 {
+        font-size: 8rem;
+    }
+
+    .homeText2 h2 {
+        font-size: 34px;
+    }
+
+    .indexButton {
+        font-size: 1.4rem;
+        padding: 16px 40px !important;
+    }
+
+    .socialLink i {
+        font-size: 2rem;
+        margin: 0 8px;
+    }
+}
+

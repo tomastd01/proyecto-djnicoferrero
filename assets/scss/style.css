@@ -74,6 +74,7 @@
   text-decoration: none;
   transition: all 400ms;
   display: inline-block;
+  font-weight: 400;
 }
 .homeBoton .indexButton a {
   text-decoration: none;
@@ -120,7 +121,7 @@
 }
 .indexSocialList i {
   color: #FFF;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 3px;
   margin: 0 5px;
 }
@@ -170,7 +171,7 @@ footer {
   transition: all 200ms ease-out;
 }
 .newMusicLink:hover {
-  color: rgba(255, 255, 255, 0.8431372549);
+  color: #ffffffd7;
 }
 
 .centerSpan {
@@ -506,6 +507,25 @@ footer {
 
   .textGradient {
     font-size: 1.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .homeText h1 {
+    font-size: 8rem;
+  }
+
+  .homeText2 h2 {
+    font-size: 34px;
+  }
+
+  .indexButton {
+    font-size: 1.4rem;
+    padding: 16px 40px !important;
+  }
+
+  .socialLink i {
+    font-size: 2rem;
+    margin: 0 8px;
   }
 }
 
