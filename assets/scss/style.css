@@ -1,1 +1,609 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.indexBody {
+  height: 100vh;
+  width: 100vw;
+  background: #12c2e9;
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #d226e2);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #d226e2);
+  padding: 0.5%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url(../image/home/Home.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.principalContent {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homeText {
+  display: flex;
+  height: 30%;
+  align-items: end;
+  font-family: "Raleway", sans-serif;
+}
+.homeText h1 {
+  color: white;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.homeText2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 10%;
+  font-family: "Raleway", sans-serif;
+}
+.homeText2 h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.homeBoton {
+  color: white;
+}
+.homeBoton .indexButton {
+  border: solid 1px white;
+  color: white;
+  text-decoration: none;
+  transition: all 400ms;
+  display: inline-block;
+  font-weight: 400;
+}
+.homeBoton .indexButton a {
+  text-decoration: none;
+  color: white;
+}
+.homeBoton .indexButton a:hover {
+  color: white;
+}
+.homeBoton .indexButton:hover {
+  transform: scale(1.07);
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
+}
+.homeBoton .indexButton:active {
+  border: none;
+}
+
+.homeRedes {
+  display: flex;
+  height: 10%;
+  align-items: end;
+  flex-direction: row;
+}
+
+.botonInstagram, .botonFacebook, .botonSpotify, .botonCloud {
+  color: white;
+  transition: all 300ms linear;
+}
+.botonInstagram:hover, .botonFacebook:hover, .botonSpotify:hover, .botonCloud:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  background: linear-gradient(to right, #12c2e9, #e832f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.indexSocialList {
+  list-style: none;
+  color: #FFF;
+  transition: all 300ms;
+}
+.indexSocialList:hover {
+  transform: scale(1.3);
+}
+.indexSocialList i {
+  color: #FFF;
+  font-size: 1.4rem;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+footer {
+  background-color: #000;
+  border: none;
+}
+
+.footerWrapper {
+  background-color: #000;
+}
+
+.bioBody {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #FFF;
+  font-family: "Raleway", sans-serif;
+  transition: all 400ms;
+}
+.navbar-brand:hover {
+  transform: scale(1.03);
+  background: linear-gradient(to right, #12c2e9, #e832f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.newMusic {
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
+  text-align: center;
+}
+.newMusicLink {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #FFF;
+  transition: all 200ms ease-out;
+}
+.newMusicLink:hover {
+  color: #ffffffd7;
+}
+
+.centerSpan {
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.nav-link {
+  transition: all 350ms;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: 400;
+  border-bottom: 0.8px solid #FFF;
+}
+
+.socialList {
+  list-style: none;
+  color: #FFF;
+  transition: all 300ms;
+}
+.socialList:hover {
+  transform: scale(1.3);
+}
+.socialList i {
+  color: #FFF;
+  font-size: 1.2rem;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.text-muted:hover {
+  color: #FFF !important;
+  font-weight: 400;
+  border: none;
+}
+
+.text-muted1 {
+  color: #6c757d;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #FFF;
+}
+
+footer {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.musicFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.botonListen {
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
+  color: white;
+  padding: 5px;
+  border: none;
+}
+.botonListen a {
+  text-decoration: none;
+  color: white;
+}
+.botonListen a:hover {
+  color: white;
+}
+
+.card-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+}
+
+.card-text {
+  font-weight: 700;
+}
+
+.biography, .bioRow {
+  width: 100%;
+}
+
+.imgWrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/home/Bio-01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgWrapper2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/home/Bio-02.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bioTitle {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.bioText {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.bioLine {
+  background-color: #e9ecef;
+  height: 3px;
+  width: 100%;
+  display: none;
+}
+
+.discography {
+  font-family: "Raleway", sans-serif;
+}
+
+.negrita {
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+.name span {
+  font-family: "Raleway", sans-serif;
+}
+
+.albums, .singles, .remixes {
+  line-height: 0.7rem;
+}
+
+.textGradient {
+  display: inline-block;
+  background: linear-gradient(to right, #12c2e9, #e832f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.1rem;
+  font-size: 1.75rem;
+}
+
+.pContainer {
+  width: 350px;
+}
+
+.contactFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactUs {
+  font-family: "Nunito", sans-serif;
+}
+
+.contactData {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.imagenContact {
+  padding: 15px;
+}
+
+.imgContact {
+  text-align: center;
+  width: 80%;
+}
+
+.contacTittle {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.conTitle1 {
+  font-size: 3.2rem;
+}
+
+.worldwide {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.botonContact {
+  background-image: linear-gradient(to right, #12c2e9, #e832f8);
+  color: white;
+  padding: 5px;
+  border: none;
+  transition: all 300ms ease;
+}
+.botonContact:hover {
+  transform: scale(1.05);
+}
+.botonContact a {
+  text-decoration: none;
+  color: white;
+}
+.botonContact a:hover {
+  color: white;
+}
+
+.contactBody {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .homeText {
+    height: 40%;
+  }
+  .homeText h1 {
+    font-size: 70px;
+  }
+
+  .homeText2 {
+    font-size: 15px;
+    height: 10%;
+    margin-top: 10px;
+  }
+
+  .homeBoton {
+    height: 10%;
+  }
+
+  .card {
+    margin-top: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .progress {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  .homeText h1 {
+    font-size: 65px;
+  }
+
+  .homeText2 {
+    font-size: 18px;
+  }
+
+  .homeBoton {
+    height: 10%;
+  }
+
+  .card {
+    margin-top: 25px;
+  }
+
+  .musicFlex {
+    flex-flow: column wrap !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .progress {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .card-body {
+    padding-top: 1rem;
+    padding-left: 0.2rem;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .botonListen {
+    transition: all 300ms;
+  }
+  .botonListen:hover {
+    transform: scale(1.08);
+  }
+
+  .progress {
+    margin: 25px;
+  }
+
+  .bioLane {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .imgWrapper {
+    height: 300px;
+    background-position: top;
+  }
+
+  .spaceBlank {
+    display: none;
+  }
+
+  .home {
+    background-position: 72% 28%;
+  }
+
+  .background {
+    display: flex;
+    justify-content: center;
+  }
+  .background .principalContent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .bioLine {
+    display: block;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .pContainer {
+    width: 290px;
+  }
+
+  .textGradient {
+    font-size: 1.5rem;
+  }
+
+  .imgContact {
+    width: 100%;
+  }
+
+  .contacTittle {
+    font-size: 3rem;
+  }
+
+  .conTitle1 {
+    font-size: 2.7rem;
+  }
+
+  .worldwide {
+    font-size: 2.6rem;
+  }
+
+  .botonContact {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 992px) {
+  .contactFlex {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .imgContact {
+    text-align: center;
+    width: 60%;
+  }
+
+  .imagenContact {
+    text-align: center;
+  }
+}
+@media (min-width: 1400px) {
+  .homeText h1 {
+    font-size: 8rem;
+  }
+
+  .homeText2 h2 {
+    font-size: 34px;
+  }
+
+  .indexButton {
+    font-size: 1.4rem;
+    padding: 16px 40px !important;
+  }
+
+  .socialLink i {
+    font-size: 2rem;
+    margin: 0 8px;
+  }
+
+  .bioText {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+@media (min-width: 1920px) {
+  .imgContact {
+    width: 100%;
+  }
+
+  .contacTittle {
+    font-size: 4.5rem;
+  }
+
+  .conTitle1 {
+    font-size: 4.2rem;
+  }
+
+  .worldwide {
+    font-size: 3.9rem;
+  }
+
+  .botonContact {
+    font-size: 1.4rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

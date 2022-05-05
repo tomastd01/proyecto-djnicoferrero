@@ -1,0 +1,241 @@
+// Vista Phone
+
+@media (max-width:480px) {
+
+    .homeText {
+        height: 40%;
+        & h1 {
+            font-size: 70px;
+            
+        }
+    }
+
+    .homeText2 {
+        font-size: 15px;
+        height: 10%;
+        margin-top: 10px;
+    }
+
+    .homeBoton {
+        height: 10%;
+    }
+    
+    .card {
+        margin-top: 35px;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 0px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .progress {
+        display: none;
+    }
+
+}
+
+// Vista Tablet
+
+@media (min-width: 481px) and (max-width:1023px) {
+    .homeText {
+        & h1 {
+            font-size: 65px;
+        }
+    }
+
+    .homeText2 {
+        font-size: 18px;
+    }
+
+    .homeBoton {
+        height: 10%;
+    }
+    
+    .card {
+        margin-top: 25px;
+    }
+
+    .musicFlex {
+        flex-flow: column wrap !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .progress {
+        display: none;
+    }
+}
+
+// Vista Desktop
+
+@media (min-width:1024px) {
+
+    .card-body {
+        padding-top: 1rem;
+        padding-left: 0.2rem;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .botonListen {
+        transition: all 300ms;
+        &:hover {
+                transform: scale(1.08);
+        }
+    }
+
+    .progress {
+        margin: 25px;
+    }
+    
+    .bioLane {
+        display: none;
+    }
+
+}
+
+
+// X-Small
+@media (max-width: 576px) {
+
+    .imgWrapper {
+        height: 300px;
+        background-position: top;
+    }
+
+    .spaceBlank {
+        display: none;
+    }
+
+    .home {
+        background-position: 72% 28%;
+        
+    }
+
+    .background {
+        display: flex;
+        justify-content: center;
+        & .principalContent {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+    }
+    
+    .bioLine {
+        display: block;
+    }
+
+    .name {
+        font-size: 12px;
+    }
+
+    .pContainer {
+        width: 290px;
+    }
+
+    .textGradient {
+        font-size: 1.5rem;
+    }
+
+    .imgContact {
+        width: 100%;
+    }
+
+    .contacTittle {
+        font-size: 3rem;  
+    }
+    
+    .conTitle1 {
+        font-size: 2.7rem;
+    }
+
+    .worldwide {
+        font-size: 2.6rem;
+    }
+
+    .botonContact {
+        font-size: 0.8rem;
+    }
+}
+
+// < Large
+
+@media (max-width: 992px) {
+
+    .contactFlex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .imgContact {
+        text-align: center;
+        width: 60%;
+    }
+
+    .imagenContact {
+        text-align: center;
+    }
+
+}
+
+
+
+// > XX-Large
+
+@media (min-width: 1400px) {
+
+    .homeText h1 {
+        font-size: 8rem;
+    }
+
+    .homeText2 h2 {
+        font-size: 34px;
+    }
+
+    .indexButton {
+        font-size: 1.4rem;
+        padding: 16px 40px !important;
+    }
+
+    .socialLink i {
+        font-size: 2rem;
+        margin: 0 8px;
+    }
+
+    .bioText {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}
+
+// > XX-Large +
+@media (min-width: 1920px) {
+
+    .imgContact {
+        width: 100%;
+    }
+
+    .contacTittle {
+        font-size: 4.5rem;  
+    }
+    
+    .conTitle1 {
+        font-size: 4.2rem;
+    }
+
+    .worldwide {
+        font-size: 3.9rem;
+    }
+
+    .botonContact {
+        font-size: 1.4rem;
+    }
+}
