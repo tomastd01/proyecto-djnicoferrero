@@ -126,15 +126,6 @@
   margin: 0 5px;
 }
 
-footer {
-  background-color: #000;
-  border: none;
-}
-
-.footerWrapper {
-  background-color: #000;
-}
-
 .bioBody {
   font-family: "Open Sans", sans-serif;
 }
@@ -221,9 +212,15 @@ footer {
   color: #FFF;
 }
 
+.footerWrapper {
+  background-color: #000;
+}
+
 footer {
   text-transform: uppercase;
   font-size: 0.8rem;
+  background-color: #000;
+  border: none;
 }
 
 .copyright {
@@ -484,9 +481,14 @@ footer {
   }
 }
 @media (max-width: 576px) {
-  .imgWrapper {
+  .imgWrapper, .imgWrapper2 {
     height: 300px;
     background-position: top;
+  }
+
+  .bioRow2 {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .spaceBlank {
