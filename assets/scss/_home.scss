@@ -12,7 +12,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: url(../image/home/Home.png);
+    background-image: url(../image/home/Home1.jpg);
     background-position: bottom;
     background-size: cover;
 }
@@ -134,4 +134,16 @@
         }
         
     }
+}
+
+.developer-color {
+    color: #bbbbbb;
+
+    &:hover {
+        color: #FFF;
+    }
+}
+
+.developer-text {
+    font-size: .8rem;
 }
