@@ -173,7 +173,7 @@
   transition: all 200ms ease-out;
 }
 .newMusicLink:hover {
-  color: #ffffffd7;
+  color: rgba(255, 255, 255, 0.8431372549);
 }
 
 .centerSpan {
@@ -266,6 +266,17 @@ footer {
 
 .card-text {
   font-weight: 700;
+}
+
+.imgCarta {
+  display: flex;
+  align-items: flex-start;
+  height: 280px;
+  width: 290px;
+}
+
+.letraComingSoon {
+  color: white;
 }
 
 .biography, .bioRow {
