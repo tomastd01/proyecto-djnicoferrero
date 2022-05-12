@@ -272,7 +272,7 @@ footer {
   display: flex;
   align-items: flex-start;
   height: 280px;
-  width: 290px;
+  width: 286px;
 }
 
 .letraComingSoon {
@@ -356,7 +356,6 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: auto;
 }
 
 .contactUs {
@@ -381,7 +380,6 @@ footer {
 }
 
 .imgContact {
-  display: block;
   text-align: center;
   width: 80%;
 }
