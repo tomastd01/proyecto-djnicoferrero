@@ -355,6 +355,8 @@ footer {
 .contactFlex {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
 }
 
 .contactUs {
@@ -364,14 +366,22 @@ footer {
 .contactData {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 15px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
 }
 
 .imagenContact {
   padding: 15px;
+  align-items: center;
 }
 
 .imgContact {
+  display: block;
   text-align: center;
   width: 80%;
 }
