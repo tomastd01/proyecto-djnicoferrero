@@ -48,7 +48,7 @@
 }
 .homeText h1 {
   color: white;
-  font-size: 6rem;
+  font-size: clamp(1rem, 6vw, 10rem);
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -594,7 +594,7 @@ footer {
 }
 @media (min-width: 1400px) {
   .homeText h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .homeText2 h2 {
